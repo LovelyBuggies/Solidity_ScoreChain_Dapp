@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<div align="center">
+<html lang="en">
+<body background="https://ws1.sinaimg.cn/large/006tNbRwly1fyhxaao38fj303o01gt8i.jpg">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Score Chain</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container" style="width: 600px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <br>
+          <h1 class="text-center"><font color="#000000">Score Chain</font></h1><br>
+          <br/><br/>
+          <div id="loader">
+            <p class="text-center">Loading...</p>
+          </div>
+          <div id="content" style="display: none;">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Student Id</th>
+                  <th scope="col">Student Name</th>
+                  <th scope="col">Scored Times</th>
+                  <th scope="col">Sum Score </th>
+                  <th scope="col">Final Score </th>
+                </tr>
+              </thead>
+              <tbody id="studentsResults">
+              </tbody>
+            </table>
+            <form onSubmit="App.castSelect(); return false;">
+              <div class="form-group"><br><br><br/>
+                <label for="studentsSelect"><font size="5" color="#666666">Select Student</font></label><br/><br/>
+                <select class="form-control" id="studentsSelect">
+                </select><br><br><br>
+                <label for="studentsSelect"><font size="5" color="#666666">Select Score</font></label><br/><br/>
+                <select class="form-control" id="scoresSelect">
+                </select>
+              </div><br/>
+              <button type="submit" class="btn btn-danger" style="height:40px;width:80px;"><font size="3">Select</font></button>
+              <br><br>
+            </form><br><br><font size="1">
+            <i><p id="accountAddress" class="text-center"></p></i>
+          </font>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</div>
+</html>
