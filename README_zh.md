@@ -19,7 +19,7 @@
 
 **README** :  [中文](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/blob/master/README_zh.md) | [English](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/blob/master/README.md) 
 
-[Score Chain](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp) 是一款区中心化的打分软件，特色在于可以在以太坊上进行公平透明的打分：每一次打分都会被封装进区块，区块被审计通过之后会连接成链。更多关于本库的说明请参考 [**Wiki**](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/wiki)。选题背景详见[*去中心化的评分系统白皮书*](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/wiki/%E5%BC%80%E9%A2%98%E6%8A%A5%E5%91%8A)；效果展示详见[最终制品说明文档](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/wiki/%E6%9C%80%E7%BB%88%E5%88%B6%E5%93%81)或者[YouTube demo](https://youtu.be/MBO_ATLicNM)。
+[Score Chain](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp) 是一款去中心化的打分软件，特色在于可以在以太坊上进行公平透明的打分：每一次打分都会被封装进区块，区块被审计通过之后会连接成链。更多关于本库的说明请参考 [**Wiki**](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/wiki)。选题背景详见[*去中心化的评分系统白皮书*](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/wiki/%E5%BC%80%E9%A2%98%E6%8A%A5%E5%91%8A)；效果展示详见[最终制品说明文档](https://github.com/LovelyBuggies/Solidity_ScoreChain_Dapp/wiki/%E6%9C%80%E7%BB%88%E5%88%B6%E5%93%81)或者[YouTube demo](https://youtu.be/MBO_ATLicNM)。
 
 <p><br/></p>
 
